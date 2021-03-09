@@ -1,0 +1,20 @@
+#home-footer-layout {
+    height: 50px;
+    background-color: #F6F8FA;
+    display: flex;
+    justify-content: space-between;
+    .home-footer-item {
+        flex: 1;
+        color: @primary;
+        text-align: center;
+        line-height: 50px;
+        border-right: 1px solid #1DE9B6;
+        &:last-child {
+            border-width: 0;
+        }
+        &.home-footer-item-active {
+            color: #fff;
+            background-color: #1DE9B6;
+        }
+    }
+}

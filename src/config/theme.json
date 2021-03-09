@@ -1,0 +1,7 @@
+{
+    "@primary": "#304FFE",
+    "@success": "#00C853",
+    "@warning": "#FFA000",
+    "@danger": "#F44336",
+    "@border-color": "#F6F8FA"
+}
